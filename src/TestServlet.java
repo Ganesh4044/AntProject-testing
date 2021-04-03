@@ -19,7 +19,6 @@ int rs=0;
 	case 4 : rs = n1 / n2; break;
 	case 5 : rs = n1 % n2; break;
 	case 6	: rs = +n1; break;
-	
 	}
 	res.setContentType("text/html");
 PrintWriter pw = res.getWriter();
